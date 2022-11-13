@@ -1,1 +1,14 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(47, 39, 181);
+    background: linear-gradient(
+      357deg,
+      rgba(47, 39, 181, 1) 0%,
+      rgba(48, 48, 204, 1) 25%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    background-size: cover;
+    background-attachment: fixed;
+  }
